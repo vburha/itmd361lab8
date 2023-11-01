@@ -1,8 +1,9 @@
 function init(){
   function myEventFunction(){
-    alert('Victoria Burhans: Testing');
+    alert('Victoria Burhans: ', userinput);
   }
   
+  var userinput = document.getElementById('entryinput');
   var divalert = document.getElementById('entrybutton');
   divalert.addEventListener('click', myEventFunction);
 }
