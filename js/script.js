@@ -5,7 +5,7 @@ function init(){
   
   var divalert = document.getElementById('entrybutton');
   divalert.addEventListener('click', myEventFunction);
-
+}
 
 
 
