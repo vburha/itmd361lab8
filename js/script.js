@@ -1,10 +1,10 @@
 function init(){
   function myEventFunction(){
     var userinput = document.getElementById('entryinput');
-    alert('Victoria Burhans: ' + userinput);
+    document.getElementById('textoutput').innerHTML = userinput.value;
+    alert('Victoria Burhans: ' + userinput.value);
   }
   
-
   var divalert = document.getElementById('entrybutton');
   divalert.addEventListener('click', myEventFunction);
 }
