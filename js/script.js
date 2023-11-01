@@ -1,6 +1,6 @@
 function init(){
   function myEventFunction(){
-    alert('Victoria Burhans: ', 'userinput');
+    alert('Victoria Burhans: ' + entryinput);
   }
   
   var userinput = document.getElementById('entryinput');
