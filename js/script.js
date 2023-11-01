@@ -1,9 +1,10 @@
 function init(){
-//add your javascrip between these two lines of code
- 
-
-
-
+  function myEventFunction(){
+    alert('Victoria Burhans: Testing');
+  }
+  
+  var divalert = document.getElementById('entrybutton');
+  divalert.addEventListener('click', myEventFunction);
 
 
 
